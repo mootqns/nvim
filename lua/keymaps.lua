@@ -1,5 +1,4 @@
 -- [[ Basic Keymaps ]]
---  See `:help vim.keymap.set()`
 
 -- jk to esc insert mode
 vim.keymap.set('i', 'jk', '<Esc>')
