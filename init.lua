@@ -18,4 +18,4 @@ require 'lazy-bootstrap'
 require 'lazy-plugins'
 
 -- :help modeline for more info
-- vim: ts=2 sts=2 sw=2 et
+-- vim: ts=2 sts=2 sw=2 et
