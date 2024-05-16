@@ -1,1 +1,1 @@
-nvim config based on kickstart.nvim
+nvim config based on kickstart.nvim 😀	
