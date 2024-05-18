@@ -1,6 +1,3 @@
--- Remove start-up message
--- vim.opt.shortmess = 'I'
-
 -- Set tab size
 vim.opt.tabstop = 4
 vim.opt.expandtab = true
