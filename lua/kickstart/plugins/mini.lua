@@ -32,8 +32,18 @@ return {
         return '%2l:%-2v'
       end
 
-      -- ... and there is more!
-      --  Check out: https://github.com/echasnovski/mini.nvim
+      -- Simple start-up screen
+      local starter = require 'mini.starter'
+      starter.setup {
+        evaluate_single = true,
+        items = {
+          starter.sections.builtin_actions(),
+        },
+        content_hooks = {
+          starter.gen_hook.adding_bullet(),
+          starter.gen_hook.aligning('center', 'center'),
+        },
+      }
     end,
   },
 }
