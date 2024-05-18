@@ -37,12 +37,16 @@ return {
       starter.setup {
         evaluate_single = true,
         items = {
-          starter.sections.builtin_actions(),
+          { name = 'search files', action = ':Telescope find_files', section = 'actions' },
+          { name = 'new buffer', action = ':enew', section = 'actions' },
+          { name = 'quit', action = ':qa!', section = 'actions' },
         },
         content_hooks = {
           starter.gen_hook.adding_bullet(),
           starter.gen_hook.aligning('center', 'center'),
         },
+        header = 'neovim',
+        footer = '',
       }
     end,
   },
